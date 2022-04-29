@@ -8,17 +8,17 @@
     "scripts": {
         "start": "node ./index.js",
         "watch": "nodemon ./index.js",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com"
     },
     "dependencies": {
-        "botbuilder": "~4.15.0",
+        "botbuilder": "~4.14.0",
         "dotenv": "^8.2.0",
-        "mocha": "^9.2.2",
-        "restify": "~8.6.0"
+        "restify": "~8.5.1"
     },
     "devDependencies": {
         "eslint": "^7.0.0",
